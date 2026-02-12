@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vocab"
+version = "0.1.0"
+description = "CLI tool for word lookup with definitions, frequency, etymology, and more"
+requires-python = ">=3.10"
+dependencies = [
+    "prompt-toolkit>=3.0",
+    "wordfreq>=3.0",
+    "requests>=2.28",
+    "nltk>=3.8",
+    "beautifulsoup4>=4.12",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+etymology = ["ety>=1.4"]
+
+[project.scripts]
+vocab = "vocab.cli:main"
