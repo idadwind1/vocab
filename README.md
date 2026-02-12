@@ -1,6 +1,6 @@
 # vocab
 
-A CLI tool that looks up words and displays definitions, frequency data, etymology, synonyms/antonyms, and related words. Features a fish-shell-style interactive mode with autocomplete and autocorrect.
+A CLI tool that looks up words and displays definitions, frequency data, etymology, synonyms/antonyms, and related words. Features a interactive mode with autocomplete and autocorrect.
 
 ## Install
 
